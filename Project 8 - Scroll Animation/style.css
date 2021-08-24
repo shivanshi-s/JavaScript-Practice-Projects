@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
 body { 
+    font-family: 'Concert One', cursive;
     background-color: ivory;
     display: flex;
     flex-direction: column;
@@ -15,7 +18,7 @@ h1 {
 }
 
 .box {
-    background-color: lightcoral;
+    background-color: rgb(114, 219, 193);
     color: #fff;
     display: flex;
     align-items: center;
@@ -35,6 +38,6 @@ h1 {
 .box.show { 
     transform: translateX(0);
 }
-.box h2 {
-    font-size: 45px; 
+.box {
+    font-size: 55px; 
 }
