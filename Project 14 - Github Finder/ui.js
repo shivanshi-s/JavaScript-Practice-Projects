@@ -1,7 +1,7 @@
 class UI {
    constructor() {
       this.profile = document.getElementById('profile')
-      console.log(this.profile)
+      // console.log(this.profile)
    }
 
    showProfile(user){
@@ -81,7 +81,7 @@ class UI {
             </div>
             <div class="col-md-6">
             <span class="badge bg-primary">Stars: ${repo.stargazers_count}</span> 
-            <span class="badge bg-primary">Watchers : ${repo.watchers_count}}</span> 
+            <span class="badge bg-primary">Watchers : ${repo.watchers_count}</span> 
             <span class="badge bg-primary">Forks : ${repo.forms_count}</span>
             </div>
 
@@ -90,6 +90,6 @@ class UI {
          `;
       })
       // output repos
-      document.getElementsById('repos').innerHTML = output;
+      document.getElementById("repos").innerHTML = output;
    }
 }
